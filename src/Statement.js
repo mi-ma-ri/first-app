@@ -1,23 +1,21 @@
 import React from "react";
 
-const Statement = () => {
-  const styles = {
-    margin: "50px",
+const statement = () => {
+  const style = {
+    margin: "0 auto",
+    marginTop: 50,
   };
   return (
-    <div>
-      <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-        <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-          Better Data
-        </span>{" "}
-        Scalable AI.
+    <div style={style}>
+      <h1 class="text-5xl font-extrabold dark:text-black">
+        ソサイチ関東リーグ1部所属{" "}
       </h1>
-      <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-        Here at Flowbite we focus on markets where technology, innovation, and
-        capital can unlock long-term value and drive economic growth.
+      <p class="text-left text-black-500 dark:text-black-400">
+        埼玉・西大宮を拠点に活動中！2017年初代関東リーグ王者
+        2018年初代全国大会王者！<br></br>Youtubeチャンネルも積極的に更新中！
       </p>
     </div>
   );
 };
 
-export default Statement;
+export default statement;
