@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Header";
 import Centerpage from "./Centerpage";
 import Statement from "./Statement";
+import Footer from "./Footer";
 
 function App() {
   const style = {
@@ -15,6 +16,7 @@ function App() {
       <div style={style}>
         <Centerpage />
         <Statement />
+        <Footer />
       </div>
     </div>
   );
