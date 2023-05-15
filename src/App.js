@@ -5,6 +5,7 @@ import Card from "./Card";
 import LinkPost from "./LinkPost";
 import Centerpage from "./Centerpage";
 import Footer from "./Footer";
+import LoginPage from "./LoginPage";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Centerpage />} />
           <Route path="/Card" element={<Card />} />
           <Route path="/LinkPost" element={<LinkPost />} />
+          <Route path="/LoginPage" element={<LoginPage />} />
         </Routes>
         <Footer />
       </Router>
